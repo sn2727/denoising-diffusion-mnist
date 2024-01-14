@@ -20,7 +20,7 @@
 <p><img src="./figures/noisy_images.png" alt="original MNIST images" width="400" height="auto"><br>
 <em>Images after 200 timesteps applying Gaussian noise</em></p>
 
-The forward process is a Markov chain of sequentially adding Gaussian noise for $T$ timesteps to the sample image  $x_0$&sim;$q(x)$, resulting in a sequence of noisy samples $x_1, ..., x_T$. The step size is controlled by a variance schedule β<sub>t</sub>.
+The forward process is a Markov chain of sequentially adding Gaussian noise for $T$ timesteps to the sample image  $x_0$ &sim; $q(x)$, resulting in a sequence of noisy samples $x_1, ..., x_T$. The step size is controlled by a variance schedule β<sub>t</sub>.
 
 <p style="margin-left: 60px;">
 <img src="./figures/eq1.jpg" alt="original MNIST images" width="600" height="auto"></p>
