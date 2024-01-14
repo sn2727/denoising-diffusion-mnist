@@ -1,0 +1,5 @@
+diffusers[training]==0.2.3
+huggingface
+torchvision
+torch
+diffusers
