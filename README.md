@@ -1,18 +1,13 @@
 # Applying Denoising Diffusion Model on MNIST dataset
 
-<div style="display: flex;">
-  <div style="flex: 1; margin-right: 60px" >
-    <p><img src="./figures/original_images.png" alt="original MNIST images" width="400" height="auto"><br>
-    <em>10 example images from the MNIST dataset</em></p>
-  </div>
 
-  <div style="flex: 1;">
-    <p>
-    <img src="./figures/reverse_diffusion_5.gif" alt="original MNIST images" width="200" height="auto"><br>
-    <em>Diffusion model trained on MNIST generating an image</em>
-    </p>
-  </div>
-</div>
+<p><img src="./figures/original_images.png" alt="original MNIST images" width="400" height="auto"><br>
+<em>10 example images from the MNIST dataset</em></p>
+
+Seed = 1           |  Seed = 2
+:-------------------------:|:-------------------------:
+![](./figures/reverse_diffusion_3.gif)  |  ![](./figures/reverse_diffusion_5.gif)
+<em>Diffusion model trained on MNIST generating images</em>
 
 
 ## Forward Diffusion Process 
